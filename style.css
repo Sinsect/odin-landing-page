@@ -44,6 +44,7 @@ body {
 }
 .information-header {
     font-size: 36px;
+    font-weight: 900;
 }
 .section-two-boxes {
     display: flex;
@@ -53,13 +54,13 @@ body {
 .section-two-boxes div {
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 150px;
     flex-wrap: wrap;
     margin: 16px;
 }
 .section-two-boxes img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style:solid;
     border-width: 3px;
     border-radius: 12px;
