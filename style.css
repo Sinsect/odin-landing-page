@@ -4,16 +4,14 @@ body {
     flex-direction: column;
     margin: 0px;
 }
-.section-one, .section-two, .section-three, .section-four, .footer {
-    padding-left : 15%;
-    padding-right: 15%;
-}
 .section-one {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .header {
@@ -63,6 +61,8 @@ body {
 }
 
 .section-two {
+    padding-left: 20%;
+    padding-right: 20%;
     background-color: white;
     text-align: center;
 }
@@ -92,6 +92,8 @@ body {
     border-color:#3882F6;
 }
 .section-three {
+    padding-left: 20%;
+    padding-right: 20%;
     background-color: #E5E7EB;
 }
 
@@ -103,6 +105,12 @@ body {
 
 .section-four {
     background-color: #3882F6;
+    border-radius: 8px;
+    margin: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .footer {
