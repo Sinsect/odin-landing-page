@@ -56,8 +56,8 @@ body {
     background-color: gray;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex: 0 1 auto;
-    min-width: 50%;
     text-align: center;
     margin-left: 50px;
 }
@@ -73,6 +73,7 @@ body {
 .section-two-boxes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     color:#1F2937;
 }
 .section-two-boxes div {
