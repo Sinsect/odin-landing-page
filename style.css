@@ -129,12 +129,25 @@ body {
     margin: 70px;
     margin-left: 15%;
     margin-right: 15%;
-    padding: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 50px;
+}
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    color: #F9FAF8
+}
+.call-to-action p {
+    margin: 2px;
+    margin-right: 20px;
+}
+.call-head {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer {
+    padding: 20px;
     color: #F9FAF8;
     background-color: #1F2937;
     text-align: center;
