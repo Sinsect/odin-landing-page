@@ -40,9 +40,12 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.hero-text {
+    flex: 0 1 50%;
 }
 
 .hero-header {
@@ -55,7 +58,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 0 1 auto;
+    flex: 0 2 50%;
     text-align: center;
     margin-left: 50px;
 }
